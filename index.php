@@ -12,11 +12,11 @@
     <script src="5-operators.js"></script>
     <script src="6-alert-prompt.js"></script>
     <script src="7-condition-statements.js"></script>
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="8-for-loop-while-do-while.js"></script>
+    <script src="9-string.js"></script>
+    <script src="10-template-literals.js"></script>
+    <script src="11-array.js"></script>
+    <script src="12-function-arror-function.js"></script>
     <script src=""></script>
     <script src=""></script>
     <script src=""></script>
