@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +18,43 @@
     <script src="10-template-literals.js"></script>
     <script src="11-array.js"></script>
     <script src="12-function-arror-function.js"></script>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="13-for-each-loop.js"></script>
+    <script src="14-map.js"></script>
+    <script src="15-filter.js"></script>
+    <script src="16-reduce.js"></script>
+    <script src="17-dom.js"></script>
+    <script src="18-event.js"></script>
     <script src=""></script>
     <script src=""></script>
     <script src=""></script>
     <script src=""></script>
 </head>
+
 <body>
     <h1>Wellcome Suraj</h1>
+    <p>This is Javascript</p>
+
+
+    <!-- Dom -->
+    <p id="text">This is DOM : Original Text</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <br><br>
+
+    <!-- EventListener -->
+    <p>This is EventListner</p>
+    <button onclick="sayHello()">Click Here</button>
+
+    <br><br>
+
+    <!-- EventListener -->
+    <form id="myForm">
+        <p>This is form</p>
+        <input type="text" id="name" />
+        <button type="submit">Submit</button>
+    </form>
+
+
 </body>
+
 </html>
