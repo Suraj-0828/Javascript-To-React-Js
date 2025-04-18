@@ -49,10 +49,35 @@
 
     <!-- EventListener -->
     <form id="myForm">
-        <p>This is form</p>
+        <p>This is onsubmit</p>
         <input type="text" id="name" />
         <button type="submit">Submit</button>
     </form>
+
+
+    <br><br>
+
+
+    <p>This is onsubmit funtion using onsubmit method </p>
+    <form onsubmit="handleForm(event)">
+        <input type="text" id="namehai" />
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <br><br>
+
+
+    <!-- OnChange EventListener -->
+    <p>This is OnChange Function</p>
+    <select onchange="showValue(this)">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+    </select>
+
+
+
+
 
 
 </body>
