@@ -24,8 +24,8 @@
     <script src="16-reduce.js"></script>
     <script src="17-dom.js"></script>
     <script src="18-event.js"></script>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="22-callback.js"></script>
+    <script src="23-promise.js"></script>
     <script src=""></script>
     <script src=""></script>
 </head>
