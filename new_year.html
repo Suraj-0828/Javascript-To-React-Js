@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="new_year.js"></script>
+
+
+    <style>
+        .div {
+            color: red;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+
+
+    <script>
+        function message() {
+            alert("Good Morning");
+            return;
+        }
+    </script>
+
+    <h1>Hello One</h1>
+    <input type="button" value="Click me" onclick="message()">
+    <br>
+
+    <div class="div" onclick="message()">
+        <h1>www.com</h1>
+    </div>
+
+
+    <!-- <h1>
+        alert("this is world");
+    </h1>
+
+    <br>
+
+    <script>
+        var a, b, c;
+        a = 10;
+        b = 20;
+        c = a + b;
+
+        console.log("This is addition : " + c);
+        document.write("this is additoion 2 : " + c); 
+    </script>
+    <br>
+
+    <script>
+        {
+            let d = "this is let varibale example";
+            console.log("This is let variable : " + d);
+            console.log("This is var variable example : " + c);
+        }
+
+        // console.log(d);  this is not define 
+    </script> -->
+
+    <script>
+        // const example
+        const fixed = "this is permament value";
+
+        console.log(fixed);
+
+        // fixed = "hxhxdb";
+        // console.log(fixed);
+    </script>
+
+    <script>
+        // this is function
+        function fun() {
+            console.log("this is function");
+        }
+
+        fun();
+        console.log(fun());
+
+
+        // this is scope block same variable name with differnt differnt block or scope
+        // {
+        //     a = "this is block 1 a variable";
+        //     console.log(a);
+        // }
+
+        // {
+        //     a = "this is block 2 a variable";
+        //     console.log(a);
+        // }
+
+
+        // global variable
+        // let name = "suraj";
+        // function newName() {
+        //     console.log("Hello " + name);
+        // }
+
+        // newName();
+        // console.log(name);
+
+
+        // // local variable
+        // function age() {
+        //     let ages = 25;
+        //     console.log(ages);
+        // }
+
+        // age();
+        // console.log(ages);
+
+
+        // onbject
+        // let person = {
+        //     name: "suraj jha",
+        //     age: 25,
+        //     city: "mumbai"
+        // };
+
+        // console.log(person.name);
+
+        // Array
+        // let array = ["ankita", 24, "mumbai city"];
+        // console.log(array[1]);
+        // console.log(array);
+
+        // string continating plus
+        // console.log(person.name + " " + array[0]);
+
+        // boolean example
+        let a1 = 10;
+        let a2 = 20;
+
+        if (a1 < a2) {
+            console.log("true");
+        } else {
+            console.log("false");
+        }
+
+        // array list add or array example
+        let Array = ["ravi kant", 17, "collage"];
+        console.log(Array[0]);
+
+        Array.push(["fybcit", "mumbai"]);
+
+        console.log(Array);
+
+        document.write("<br>");
+
+        // operater plus
+        var x = 10;
+        var y = 101;
+
+        // document.write("The sum of x and y " + (x + y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (x - y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (x * y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (x / y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (x % y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (x + y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (++y));
+        // document.write("<br>")
+        // document.write("The sum of x and y " + (--y));
+
+
+        // comparision-operater
+        let password = 1234;
+        let userInput = "1234";
+
+
+        // === check number plus type of its most of use in project
+        if (password === userInput) {
+            console.log("Login Success");
+        } else {
+            console.log("Wrong Password");
+        }
+
+        // type of check number or string etc
+        console.log(typeof (password));
+
+
+        // if statement
+        {
+            let a = true;
+            if (a) {
+                console.log("True hai"); x
+            }
+        }
+
+
+        //if else
+        {
+            // let score = prompt("Enter the number ");
+
+            // if (score >= 35) {
+            //     console.log("pass good job");
+            // } else {
+            //     console.log("fail try again");
+            // }
+        }
+
+
+        // switch statement
+        {
+            // prompt hamesha string compair karta hai dhiyan me rakhna
+            // let choice = prompt("Enter the number between 1 to 3 : ");
+
+            // switch (choice) {
+            //     case "1":
+            //         console.log("Tea");
+            //         break;
+            //     case "2":
+            //         console.log("Coffie");
+            //         break;
+            //     case "3":
+            //         console.log("Milk");
+            //         break;
+            //     default:
+            //         console.log("Invalid number enter please correct number enter");
+            //         break;
+            // }
+        }
+
+
+        // for loop hai
+        // {
+        //     let a = 10;
+        //     for (let i = 1; i <= a; i++) {
+        //         console.log(i);
+        //     }
+
+        // }
+
+        // {
+        //     let con = confirm("Are you kids right?");
+
+        //     if (con === true) {
+        //         console.log("Welcome kids");
+        //     } else {
+        //         console.log("Only kids allowed!");
+        //     }
+        // }
+
+
+        // {
+        //     let array = ["suraj", "ravi", 24.50, 17];
+
+        //     for(let i = 0; i<=array.length; i++){
+        //         console.log("This is arrray list : " + array[i]);
+        //     }
+        // }
+
+
+        {
+            let users = [
+                { name: "Suraj", age: 22 },
+                { name: "Ravi", age: 17 },
+                { name: "Amit", age: 25 }
+            ];
+
+            // users.forEach(x => {
+            //     console.log(x.name + " " + x.age);
+            // });
+
+            users.forEach(a => {
+                console.log(a.name + " " + a.age);
+            });
+
+            // map function use here
+            let new_name = users.map(user => user.name);
+
+            console.log(new_name);
+
+        }
+
+
+        {
+            // map loop run time project
+
+            let numbers = [1, 2, 3, 4];
+
+            console.log(numbers[2]);
+
+            let result = numbers.map(num => num * 2);
+
+            console.log(result);
+        }
+
+
+        {
+            let marks = [50, 45, 78, 97, 67];
+
+            // let updateMarks = marks.map((item) => {
+            //     return (item + 5);
+            // });
+
+            // let updatemarkss = marks.map(vv => vv + 5);
+
+            let name = marks.map(ff => ff);
+            console.log(name);
+
+            // let nn = marks.map(x => {
+            //     return x + 10;
+            // })
+
+            // console.log(nn);
+        }
+
+
+        {
+            let users = [
+                { name: "Suraj", age: 22 },
+                { name: "Ravi", age: 17 },
+                { name: "Amit", age: 25 }
+            ];
+
+
+            users.forEach(x => {
+                console.log(x.name);
+            });
+
+
+
+        }
+
+        {
+            // let i = 1;
+
+            // while (i <= 4) {
+            //     console.log(i);
+            //     i = i + 1
+            // }
+
+
+            // let p = 1;
+
+            // do {
+            //     console.log(p);
+            //     p = p + 1;
+            // } while (p <= 5);
+
+
+            // // for of loop example
+            // let r = [1, 2, 3, 4];
+
+            // for(let obj of r){
+            //     console.log(obj);
+            // }
+
+
+        }
+
+
+        // templet literal
+
+        // {
+        //     let name = "Suraj Jha";
+        //     let age = 24;
+
+        //     console.log(`this is example of templet litteral ${name} and ${age}`);
+
+        //     let objects = {
+        //         products : "pen",
+        //         color : "red",
+        //         price : 2
+        //     };
+
+        //     let output = `the pen color is ${objects.color} and price is ${objects.price}`;
+
+        //     console.log(output);
+        // }
+
+
+        // {
+        //     // normal function
+
+        //     function add(a, b){
+        //         c = a + b;
+        //         return c;
+        //     }
+
+        //     // function with parameter
+
+        //     function print_word(name){
+        //         return `this is name : ${name}`;
+        //     }
+
+        //     let op = print_word("suraj");
+
+        //     console.log(op);
+        // }
+
+
+        {
+            let sim_arrow = () => {
+                console.log("hello function");
+            }
+
+            sim_arrow();
+
+
+            const multiply = (a, b) => {
+                return (a * b);
+            }
+
+            console.log(`this is multiplation of two value : ${multiply(2, 5)}`);
+        }
+
+        {
+            setTimeout(function () {
+                console.log("Hello after 1 second");
+            }, 1000);
+
+            // setTimeout(() => {
+            //     alert("Welcome Suraj");
+            // }, 2000);
+
+            // setTimeout(() => {
+            //     console.log("gooooooooo")
+            // }, 2000);
+
+        }
+
+
+        {
+            let dataa = () => {
+                console.log("happy holi after 3 second");
+            };
+
+            setTimeout(dataa, 3000);
+        }
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
